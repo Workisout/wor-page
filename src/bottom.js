@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (!container) return;
 
     try {
-        const response = await fetch("pages/bottom.html");
+        const response = await fetch("/wor-page/pages/bottom.html");
 
         if (!response.ok) {
             throw new Error("no bottom.html");
